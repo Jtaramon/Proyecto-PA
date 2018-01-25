@@ -54,13 +54,11 @@ public class Archivos {
          {
              // System.out.println(entrada.nextLine());
              String cadena = entrada.nextLine();
-             ArrayList<String> registro = new ArrayList<String>(Arrays.asList(cadena.split(",")));
+             ArrayList<String> registro = new ArrayList<String>(Arrays.asList(cadena.split(" ")));
 
              int e = Integer.parseInt(registro.get(0));
-             int f = Integer.parseInt(registro.get(1));
              
              lista.add(e);
-             lista.add(f);
                     
          } // fin de while
       } // fin de try
